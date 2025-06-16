@@ -75,7 +75,7 @@ header {
 .tab-link.active {
     color: white;
 	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 4px #23430C;
+	text-shadow: 0px 1px 4px #000000;
     background-color: #f2f2f2;
 }
 
@@ -91,7 +91,7 @@ header {
 .content-section h2 {
     color: white;
 	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 4px #23430C;
+	text-shadow: 0px 1px 4px #000000;
     margin-bottom: 1.5rem;
     font-size: 2rem;
     border-bottom: 2px solid #eee;
@@ -123,8 +123,8 @@ header {
 .skill-category h3,
 .contact-item h3 {
     color: white;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 4px #23430C;
+	-webkit-text-stroke: 1px #fffb00;
+	text-shadow: 0px 1px 4px #000000;
     margin-bottom: 1rem;
 }
 
@@ -138,8 +138,8 @@ header {
 .research-item h3,
 .publication-item h3 {
     color: white;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 4px #23430C;
+	-webkit-text-stroke: 1px #fffb00;
+	text-shadow: 0px 1px 4px #000000;
     margin-bottom: 0.5rem;
 }
 
@@ -178,8 +178,8 @@ header {
 
 .articles-nav h3 {
     color: white;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 4px #23430C;
+	-webkit-text-stroke: 1px #fffb00;
+	text-shadow: 0px 1px 4px #000000;
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -201,8 +201,8 @@ header {
 }
 
 .article-card:hover {
-    border-color: #667eea;
-    transform: translateY(-2px);
+    border-color: #000000;
+    transform: translateX(-3px);
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
 }
 
@@ -250,11 +250,10 @@ header {
 }
 
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
+    background: linear-gradient(135deg, #FFF5CC 0%, #f8f300 100%);
+    color: rgb(0, 0, 0);
     padding: 2rem 0;
-    margin-top: 3rem;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -269,7 +268,7 @@ footer {
     .about-grid,
     .skills-grid,
     .contact-grid {
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     }
     
 }
